@@ -4,7 +4,12 @@
 \alias{get_swamp}
 \title{get local postgres connection}
 \usage{
-get_swamp()
+get_swamp(user, pw)
+}
+\arguments{
+\item{user}{username for my local db}
+
+\item{pw}{password for my local db}
 }
 \description{
 get local postgres connection
