@@ -1,0 +1,19 @@
+Package: faRley
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ted",
+           family = "Farleyt",
+           role = c("aut", "cre"),
+           email = "tfarley10@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Imports:
+  DBI,
+  RPostgres,
+  dplyr,
+  forcats
+RoxygenNote: 7.0.2
