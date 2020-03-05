@@ -20,7 +20,7 @@ bin_age <- function(df, col){
                         !!col >= 50 & !!col < 60	~  '50-59',
                         !!col >= 60 & !!col < 70	~  '60-69',
                         !!col >= 70 & !!col < 80	~  '70-79',
-                        !!col >  80 ~ 'Over 80')
+                        !!col >=  80 ~ 'Over 80')
                   ))
   df1 %>%
     dplyr::mutate(age_bin = forcats::fct_relevel(df1$age_bin, "Under 10")) %>%
