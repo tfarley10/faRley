@@ -1,7 +1,7 @@
 #' Code MIGRATE1 IPUMS variable into a factor
 #'
-#' @param a dataframe containing MIGRATE1 column
-#' @param the MIGRATE1 column name
+#' @param df a dataframe containing MIGRATE1 column
+#' @param var the MIGRATE1 column name
 #' @return
 #'
 #' @export

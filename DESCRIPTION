@@ -15,5 +15,6 @@ Imports:
   DBI,
   RPostgres,
   dplyr,
-  forcats
+  forcats, 
+  ipumsr
 RoxygenNote: 7.0.2

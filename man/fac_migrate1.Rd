@@ -7,9 +7,9 @@
 fac_migrate1(df, var)
 }
 \arguments{
-\item{a}{dataframe containing MIGRATE1 column}
+\item{df}{a dataframe containing MIGRATE1 column}
 
-\item{the}{MIGRATE1 column name}
+\item{var}{the MIGRATE1 column name}
 }
 \value{
 
