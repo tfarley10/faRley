@@ -2,9 +2,9 @@
 % Please edit documentation in R/bin_age.R
 \name{bin_age}
 \alias{bin_age}
-\title{Binning AGE variable for IPUMS Microdata}
+\title{Binning AGE variable by decade}
 \usage{
-bin_age(df, col)
+bin_age(df, age_col)
 }
 \arguments{
 \item{df}{dataframe containing an integer AGE variable}
@@ -12,5 +12,5 @@ bin_age(df, col)
 \item{col}{name of the AGE variable}
 }
 \description{
-Binning AGE variable for IPUMS Microdata
+Binning AGE variable by decade
 }

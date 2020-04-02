@@ -4,7 +4,7 @@
 #' @param pw password for my local db
 #' @export
 get_swamp <- function(user, pw){
-  DBI::dbConnect(RPostgres::Postgres(),
+  DBI::dbConnect(RPostgreSQL::PostgreSQL(),
             host = "localhost",
             dbname = "swamp",
             password = pw,
